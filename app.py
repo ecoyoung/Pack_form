@@ -74,7 +74,7 @@ def main():
     # 显示logo图片
     try:
         st.markdown('<div class="logo-container">', unsafe_allow_html=True)
-        st.image("aaa.jpeg", width=1500, caption="Anker Oceanwing Inc.")
+        st.image("aaa.jpeg", width=1400, caption="Anker Oceanwing Inc.")
         st.markdown('</div>', unsafe_allow_html=True)
     except Exception as e:
         st.warning(f"无法加载logo图片: {str(e)}")
